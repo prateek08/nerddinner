@@ -1,0 +1,12 @@
+﻿<parameters>
+  <parameter name="IIS Web Application Name" defaultValue="Default Web Site/NerdDinner_deploy" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\pragar\\Downloads\\nerddinner\\mvc4\\NerdDinner\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\pragar\\Downloads\\nerddinner\\mvc4\\NerdDinner\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=demodb.ctivpof50xo9.us-east-1.rds.amazonaws.com,1433;Initial Catalog=blah;User ID=sa;Password=testtest" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\pragar\\Downloads\\nerddinner\\mvc4\\NerdDinner\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="NerdDinnerContext-Web.config Connection String" description="NerdDinnerContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=demodb.ctivpof50xo9.us-east-1.rds.amazonaws.com,1433;Initial Catalog=blah;User ID=sa;Password=testtest" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\pragar\\Downloads\\nerddinner\\mvc4\\NerdDinner\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NerdDinnerContext']/@connectionString" />
+  </parameter>
+</parameters>

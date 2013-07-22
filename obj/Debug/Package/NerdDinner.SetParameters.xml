@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/NerdDinner_deploy" />
+  <setParameter name="DefaultConnection-Web.config Connection String" value="Data Source=demodb.ctivpof50xo9.us-east-1.rds.amazonaws.com,1433;Initial Catalog=blah;User ID=sa;Password=testtest" />
+  <setParameter name="NerdDinnerContext-Web.config Connection String" value="Data Source=demodb.ctivpof50xo9.us-east-1.rds.amazonaws.com,1433;Initial Catalog=blah;User ID=sa;Password=testtest" />
+</parameters>
